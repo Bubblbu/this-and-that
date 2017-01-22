@@ -1,0 +1,11 @@
+siteTitle = "This and that"
+siteDescr = "A small blog about many different things. Mostly attempts to organize my own thoughts. But also about Open Science and my current Master's degree in Cognitive Science."
+siteAuthor = "Asura Enkhbayar"
+
+siteTwitterUrl = "https://twitter.com/AsuraEnkhbayar"
+siteGithubUrl = "https://github.com/Bubblbu"
+siteEmailUrl = "mailto:asura.enkhbayar@gmail.com"
+
+googleAnalyticsId = ""
+
+linkPrefix = "/gatsby-starter-lumen"
