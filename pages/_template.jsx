@@ -24,6 +24,13 @@ class Template extends React.Component {
              script.type= 'text/javascript';
              script.src= 'https://hypothes.is/embed.js';
              script.async = true;
+
+             var config= document.createElement('script');
+             config.type= 'application/json';
+             config.className= 'js-hypothesis-config'
+             config.text= '{"showHighlights": true}';
+
+             document.body.appendChild(config)
              document.body.appendChild(script);
         }
         loadScript();
