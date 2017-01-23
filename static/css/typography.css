@@ -79,17 +79,24 @@ section {
 a {
 	background: transparent;
 	color: #222;
-	text-decoration: underline;
+	text-decoration: none;
 	transition: all .3s;
 }
 a:active, a:hover {
 	outline: 0;
 }
 a:hover {
-	color: #f7a046;
+	color: #222;
 }
 a:active {
-	color: #f7a046;
+	color: #222;
+}
+p>a {
+	color: #5d93ff;
+}
+p>a:hover {
+	color: #5d93ff;
+	text-decoration: underline;
 }
 article {
 	display: block;
