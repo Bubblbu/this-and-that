@@ -7,6 +7,7 @@ import { config } from 'config'
 import ReadNext from '../ReadNext'
 import './style.css'
 import '../../static/css/highlight.css'
+import ReactDisqusThread from 'react-disqus-thread'
 
 class SitePost extends React.Component {
     render() {
@@ -17,6 +18,16 @@ class SitePost extends React.Component {
           <Link className='gohome' to={ prefixLink('/') }> All Articles
           </Link>
         </div>
+        )
+
+        const disqus = (
+            <ReactDisqusThread
+                shortname= { config.disqusShortname }
+                // identifier= { component.state.identifier }
+                // title= {component.state.title}
+                // url= { component.state.url }
+                // category_id= {component.state.category_id }
+                />
         )
 
         return (
@@ -38,7 +49,9 @@ class SitePost extends React.Component {
                     <a href={ config.siteTwitterUrl }>
                       <br></br> <strong>{ config.siteAuthor }</strong> on Twitter</a>
                   </p>
+                  { disqus }
                 </div>
+                
               </div>
             </div>
             );

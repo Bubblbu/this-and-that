@@ -9,3 +9,5 @@ siteEmailUrl = "mailto:asura.enkhbayar@gmail.com"
 googleAnalyticsId = ""
 
 linkPrefix = "/this-and-that"
+
+disqusShortname = "this-and-that"
