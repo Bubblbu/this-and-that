@@ -8,15 +8,22 @@ category: "general"
 description: "After thinking about it for a long time, I finally decided to create this blog. To be honest I am still not sure what I want to write about, but I spent some time thinking about how I would like to do it. But before I tell you more about the technical details, I'll annoy you for a few more sentences about my motivation and all that interesting stuff."
 ---
 
-After thinking about it for a long time, I finally decided to create this blog. To be honest I am still not sure _what_ I want to write about, but I spent some time thinking about _how_ I would like to do it. But before I tell you more about the technical details, I'll annoy you for a few more sentences about my motivation and all that interesting stuff.
+Hi everyone!
+
+This is my first post and to be honest I am still not sure _what_ I want to write about exactly, but I spent some time thinking about the _how_. But before telling you more about this, let me quickly introduce myself:
+
+My name is Asura Enkhbayar and I am a Master's student in Cognitive Science at the University of Vienna. I have been playing with the idea of starting a blog for quite some time, but never. But recently I decided to try out an experiment and proposed blog posts as deliverables for a project at Uni and my supervisor agreed to it. My two main motivations for this were:
+
++ Trick myself into writing blog posts.
++ After coming back from [OpenCon 2016](opencon2016.org) I was still struggling to find my own way of being more open as a student. So I here I am now, attempting to build my truly *open* blog.
 
 ## The fear of blogging
 
-One of the main reasons, why I never started my own blog, was the fear of writing bullshit and people telling me that in a not so nice way. I know that it is perfectly okay to write down your opinion and release it to the vastness of the opiniated internet. But I don't want to simply put my thoughts on paper (or rather markdown files) and publish them in a unidirectional manner. I would rather prefer to hear the critique, receive feedback and suggestions and maybe even some nice words. And that is exactly what I hope to achieve within this space (with a horribly, uncreative name). I assume that this space will mostly still act as a traditional blog, but I feel better by providing the possibility of having my own little open peer review.
+There are many reasons one might not want to blog. A quick [google search](https://www.google.at/search?q=blogging+fear&oq=blogging+fear&aqs=chrome..69i57j69i60l3j69i61j69i60.1849j0j7&sourceid=chrome&ie=UTF-8) will show a myriad of listicles and blogs about the fear of bloggers. The thought of putting my personal ideas on paper (or markdown files in this case) and releasing them into the vastness of the opiniated internet is frightening. It feels like a one-way exposition of my persona to the public (and the mean trolls), whereas I would rather prefer to hear the critique, feedback, suggestions and maybe even some nice words. And that is exactly what I hope to achieve with this blog (with a horribly, uncreative name). 
 
 In the beginning I will mainly use this blog as a tool to communicate thoughts and ideas to my project supervisors and I hope that they will join me in this experiment!
 
-## Let's create a bidirectional blog
+## More than just reading
 
 Making a blog bidirectional sounds quite simple, if the solution consists of simply providing the possibility to comment on the text. But I would like to take the idea a few steps further and enable a more specific and detailed discussion of content.
 
@@ -33,7 +40,7 @@ Making a blog bidirectional sounds quite simple, if the solution consists of sim
 
 ### Feedback
 
-Beloved Wikipedia tells us:
+Scroll down to the end of the article to see Disqus in action. Beloved Wikipedia tells us:
 
 >[Disqus](https://disqus.com) (pronounced discuss) is a worldwide blog comment hosting service for web sites and online communities that uses a networked platform.
 
@@ -74,7 +81,7 @@ A few final remarks about Hypothesis on this blog:
 
 ### Collaboration
 
-Finally, I want to briefly describe how to propose changes and edits on this blog. For the coders and tech-savvy people: GitHub & Pull Requests.
+Finally, I want to briefly describe how to propose changes and edits on this blog. For the coders and tech-savvy people: GitHub & Pull Requests. Of course I am far from being the first one to use this idea (e.g. [GitBook](https://github.com/GitbookIO/gitbook)).
 
 For the rest of you, who aren't familiar with these two terms, I will now introduce you to the world of *version control software*: 
 
@@ -88,15 +95,14 @@ Now the final piece to solve this puzzle is called *Pull Requests*. GitHub allow
 
 **Well okay... but how?**
 
-TBD
-
-+ Edit Button
++ Propose changes to an article
 
     1. Click on "Edit this article"
-    2. Edit article in GitHub edit interface (GitHub account needed)
+    2. Login into your GitHub account (GitHub acc)
+    2. Edit article in the web interface
     3. Submit and propose changes
 
-+ Button to view file history
++ To view the all changes to a document, just click on "View history" and you will be taken to the following view:
 
 <figure class="floatCenter">
     <img style="width: 100%;" src="./history.png" alt="history">
