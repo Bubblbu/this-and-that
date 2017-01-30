@@ -1,0 +1,19 @@
+---
+title: "Applying Wittgenstein in Knowledge Discovery and Visualization"
+date: "2017-01-27"
+layout: post
+path: "/wittgenstein-draft/"
+editpath: "2017-01-27-wittgenstein-draft"
+category: "Wittgenstein; Philosophy"
+description: "An introduction to my project about the applicability of Wittgensteinian concepts in knowledge discovery and visualizations."
+---
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget eleifend velit. Phasellus gravida nibh eget turpis iaculis, ut lacinia dolor rhoncus. Aenean a finibus purus, non convallis velit. Ut a ultricies est. Phasellus ultricies tristique commodo. Nunc vitae nisi diam. Integer mi velit, bibendum non quam sed, tincidunt viverra nisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum lorem nibh, efficitur a mollis sed, ornare eu tortor. Vestibulum luctus et libero at suscipit. Vestibulum laoreet tempor felis sit amet imperdiet. Quisque arcu nulla, tincidunt sed tincidunt eu, tincidunt sodales lectus.
+
+Fusce accumsan sem vel erat pharetra, eu pulvinar nibh dictum. Nullam condimentum ac libero ac sagittis. Sed semper magna neque, vitae scelerisque urna pretium a. Donec semper dignissim sapien et imperdiet. In hac habitasse platea dictumst. Quisque egestas lobortis augue at consectetur. Fusce accumsan, sem eget condimentum ullamcorper, libero mi tincidunt augue, feugiat gravida mauris ante nec urna. Aliquam lacinia vel ex vitae tempor. Vestibulum rhoncus lorem ac tincidunt suscipit. Duis posuere ornare posuere. Fusce id metus nec lacus gravida lacinia. Cras a dignissim ipsum, at consequat erat. Ut sagittis ac ipsum a fringilla. Sed tempor convallis turpis, in sollicitudin quam hendrerit eget. Etiam maximus neque eget lorem convallis, id elementum metus suscipit.
+
+Maecenas placerat, nulla ut suscipit rutrum, nunc risus sodales elit, ac iaculis mauris odio vitae est. Proin vel magna a odio lobortis tristique ac a purus. Suspendisse vitae euismod purus, volutpat laoreet quam. Fusce lacus sem, dignissim id dolor eu, egestas commodo risus. Vestibulum viverra lobortis ipsum, ut elementum tortor aliquam sit amet. Nunc ac augue blandit, varius tortor viverra, blandit nunc. Quisque imperdiet nec urna id efficitur. Nulla ac tortor ante. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed commodo nibh justo, non fringilla sem venenatis vitae. Nam varius dolor ac turpis blandit, eget vehicula arcu elementum. Duis scelerisque efficitur interdum. Aliquam lacinia leo purus, quis rhoncus augue suscipit sed. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque ac ultricies nulla.
+
+Cras tempus pharetra tortor, in volutpat est lobortis a. Ut vulputate vehicula felis, vitae finibus tortor vestibulum vel. Nam vel sollicitudin est. Nullam eleifend justo a blandit maximus. Aliquam venenatis lectus non dolor viverra, quis aliquam ipsum aliquam. Vestibulum eros nulla, feugiat eget lectus eu, suscipit cursus sapien. Cras viverra magna est, sed porttitor quam ultricies ac. Aenean risus ex, laoreet sit amet nibh et, pulvinar lobortis erat. Nunc a tortor sodales, tempus lacus at, scelerisque mauris.
+
+Morbi porta lorem eu rutrum pretium. Nulla feugiat hendrerit odio, nec consectetur nisi eleifend sed. Phasellus viverra porttitor mi, aliquet faucibus neque consequat at. Fusce venenatis eget urna ac maximus. Suspendisse ultricies commodo faucibus. Nam tincidunt in velit id pretium. Integer rhoncus, turpis ut tristique accumsan, turpis erat rutrum dui, quis aliquam arcu lorem non ligula. Pellentesque ante urna, sagittis at scelerisque et, convallis vitae felis. Nam in nisl dolor.
