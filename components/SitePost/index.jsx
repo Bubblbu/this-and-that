@@ -13,11 +13,27 @@ class SitePost extends React.Component {
     render() {
         const {route} = this.props
         const post = route.page.data
+
+        const project = config.GitHubRepository
+        const username = config.GitHubUserName
+
+        const edit_url = "https://github.com/" + username + "/" + project + "/edit/master/pages/articles/" + post.editpath + "/index.md"
+        const history_url = "https://github.com/" + username + "/" + project + "/commits/master/pages/articles/" + post.editpath + "/index.md"
+
         const home = (
-        <div>
-          <Link className='gohome' to={ prefixLink('/') }> All Articles
-          </Link>
-        </div>
+          <div>
+            <div className="button-container">
+              <div className="button-box">
+                <Link className='gohome' to={ prefixLink('/') }> All Articles</Link>
+              </div>
+              <div className="button-box">
+                <Link className='gohome' to={ edit_url }> Edit this article</Link>
+              </div>
+              <div className="button-box">
+                <Link className='gohome' to={ history_url }> View edit history</Link>
+              </div>
+            </div>
+          </div>
         )
 
         const disqus = (
@@ -27,7 +43,7 @@ class SitePost extends React.Component {
                 // title= {component.state.title}
                 // url= { component.state.url }
                 // category_id= {component.state.category_id }
-                />
+                ></ReactDisqusThread>
         )
 
         return (
@@ -36,7 +52,7 @@ class SitePost extends React.Component {
               <div className='blog-single'>
                 <div className='text'>
                   <h1>{ post.title }</h1>
-                  <div dangerouslySetInnerHTML={ {    __html: post.body} } />
+                  <div dangerouslySetInnerHTML={ { __html: post.body} } />
                   <div className='date-published'>
                     <em>Published { moment(post.date).format('D MMM YYYY') }</em>
                   </div>

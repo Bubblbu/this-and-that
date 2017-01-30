@@ -1,8 +1,9 @@
 ---
 title: "The idea of an open blog"
-date: "2017-01-23T22:12:03.284Z"
+date: "2017-01-23"
 layout: post
 path: "/hello-world/"
+editpath: "2017-01-23-hello-world"
 category: "general"
 description: "After thinking about it for a long time, I finally decided to create this blog. To be honest I am still not sure what I want to write about, but I spent some time thinking about how I would like to do it. But before I tell you more about the technical details, I'll annoy you for a few more sentences about my motivation and all that interesting stuff."
 ---
