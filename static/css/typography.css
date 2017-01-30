@@ -91,10 +91,10 @@ a:hover {
 a:active {
 	color: #222;
 }
-p>a {
+p a {
 	color: #5d93ff;
 }
-p>a:hover {
+p a:hover {
 	color: #5d93ff;
 	text-decoration: underline;
 }
