@@ -24,13 +24,13 @@ class SitePost extends React.Component {
           <div>
             <div className="button-container">
               <div className="button-box">
-                <Link className='gohome' to={ prefixLink('/') }> All Articles</Link>
+                <Link className='gohome' to={ prefixLink('/') }>All Articles</Link>
               </div>
               <div className="button-box">
-                <Link className='gohome' to={ edit_url }> Edit this article</Link>
+                <Link className='gohome' to={ edit_url }>Edit this article</Link>
               </div>
               <div className="button-box">
-                <Link className='gohome' to={ history_url }> View edit history</Link>
+                <Link className='gohome' to={ history_url }>View edit history</Link>
               </div>
             </div>
           </div>
