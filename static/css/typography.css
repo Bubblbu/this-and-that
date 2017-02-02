@@ -191,10 +191,10 @@ figure {
 /* Headings
    ========================================================================== */
 h1 {
-	font-size: 40px;
-	font-size: 2.5rem;
+	font-size: px;
+	font-size: 2rem;
 	line-height: 52px;
-	line-height: 3.25rem;
+	line-height: 2.5rem;
 	margin-top: 104px;
 	margin-top: 6.5rem;
 	margin-bottom: 26px;
@@ -205,8 +205,8 @@ h2 {
 	font-size: 1.6875rem;
 	line-height: 39px;
 	line-height: 2.4375rem;
-	margin-top: 65px;
-	margin-top: 4.0625rem;
+	margin-top: 40px;
+	margin-top: 2.5rem;
 	margin-bottom: 13px;
 	margin-bottom: 0.8125rem;
 }
@@ -252,10 +252,10 @@ h6 {
 }
 @media screen and (min-width:40em) {
 	h1 {
-		font-size: 40px;
-		font-size: 2.5rem;
-		line-height: 62px;
-		line-height: 3.444444444444445rem;
+		font-size: 32px;
+		font-size: 2rem;
+		line-height: 40px;
+		line-height: 2.5rem;
 		margin-top: 124px;
 		margin-top: 6.888888888888889rem;
 		margin-bottom: 31px;
@@ -266,8 +266,8 @@ h6 {
 		font-size: 1.6875rem;
 		line-height: 46.5px;
 		line-height: 2.583333333333334rem;
-		margin-top: 77.5px;
-		margin-top: 4.305555555555556rem;
+		margin-top: 40px;
+		margin-top: 2.5rem;
 		margin-bottom: 15.5px;
 		margin-bottom: 0.861111111111111rem;
 	}
