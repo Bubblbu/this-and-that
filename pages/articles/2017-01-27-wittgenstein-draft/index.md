@@ -1,9 +1,9 @@
 ---
 title: "Applying Wittgenstein in Knowledge Discovery & Visualization"
-date: "2017-01-23"
+date: "2017-01-27"
 layout: post
 path: "/wittgenstein-draft/"
-editpath: "2017-01-23-wittgenstein-draft"
+editpath: "2017-01-27-wittgenstein-draft"
 category: "Wittgenstein"
 description: "Is it possible to take the philosophy of Wittgenstein (possibly the greatest philosopher of the 20th century. He's great. It's tremendous) and use his ideas to design and develop software used in everyday life?"
 ---
