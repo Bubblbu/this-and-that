@@ -1,10 +1,15 @@
 ---
-title: "About this & that"
+title: "About this, that & me"
 layout: page
 path: "/about"
 ---
 
+<figure class="floatRight">
+    <img style="height: 130px; border-radius: 50%;" src="./author.jpg">
+</figure>
+
 Hi everyone!
+
 
 My name is Asura Enkhbayar and I am Master's student in Cognitive Science at the University of Vienna. My background is in electrical engineering, which means that I'm quite proficient at changing light bulbs. Apart from superiour light-bulb-replacing-skills, I also acquired the skill to produce more or less properly working code (mostly data sciency & web-dev projects).
 
