@@ -36,19 +36,19 @@ Knowledge discovery is "the nontrivial extraction of implicit, previously unknow
 
 (1) The discovery algorithm is the core of every system and has the task to identify relevant patterns in the data and describing them in a meaningful way. Modern discovery systems usually deploy a variety of methods including, but not limited to machine learning, statistical methods and user guidance.
 
-(2) Discovery algorithms can accept a multitude of information as inputs. Most importantly raw data from the database, but also additional information from data dictionaries or ontologies. *Domain knowledge*, usually provided by a subject matter expert (SME) can also prove to be useful in order to restrict the search space, but Frawley et al also emphasize the danger of possibly missing valuable discoveries. Lastly, a *user-biased* evaluation of the discovered knowledge can additionally serve as input and refine results.
+(2) Discovery algorithms can accept a multitude of information as inputs. Most commonly raw data from the database is used, but also additional information from data dictionaries or ontologies are common data sources. *Domain knowledge*, usually provided by a subject matter expert can also prove to be useful in order to restrict the search space, but Frawley et al also emphasize the risk of possibly missing valuable discoveries. Lastly, a *user-biased* evaluation of the discovered knowledge can additionally serve as input to further refine results.
 
-(3) The extracted knowledge is described with three properties. The *form* of discovered knowledge is the description of its nature. Certain patterns can relate to data fields within a single record or relate the fields of different records. Furthermore, Frawley et al discern between qualitative and quantitative relationships, describing numerical and logical relationships, respectively. The *Representation* of knowledge is very important as the usefulness of the data ultimately depends on the user. In the case of a human end-user typical representations are natural language, formal logics or especially visual depictions (Tufte 1991). In most discoveries *uncertainty* needs to be considered due to a variety of reasons. The input data can be erroneous, methods are often not deterministic and often uncertainty is already embedded in the real-world nature of the discovery.
+(3) According to Frawley et al the extracted knowledge has three properties. The *form* of discovered knowledge is the description of its nature. Certain patterns can relate to data fields within a single record or relate the fields of different records. Furthermore, they discern between qualitative and quantitative relationships, describing logical and numerical relationships. The *Representation* of knowledge is of utmost importance as the usefulness of the data ultimately depends on the users evaluation. In the case of a human end-user typical representations are natural language, formal logics or especially visual depictions (Tufte 1991). Most discoveries are of probabilistic nature, rather than certain facts, due to a variety of reasons. Input data can be erroneous, methods are often non-deterministic and lastly *uncertainty* is an intrinsic property of the real-world.
 
 ## Open Knowledge Maps
 
-As previously mentioned, I would like to investigate the applicability of Wittgenstein-inspired approaches in knowledge discovery by means of comparing them with a use case. [Open Knowledge Maps](openknowledgemaps.org) (OKM) is an Open Source knowledge discovery system intended to provide an interactive so-called *knowledge map* of a research field. The following example map for the topic "Wittgenstein" in the Directory of Open Access Journals (DOAJ): [https://bit.ly/okmaps_wittgenstein](http://bit.ly/okmaps_wittgenstein)
+As previously mentioned, I would like to investigate the applicability of Wittgenstein-inspired approaches in knowledge discovery by means of evaluating their applicability in a use case. [Open Knowledge Maps](openknowledgemaps.org) is an Open Source knowledge discovery system intended to provide interactive, so-called *knowledge map* of a research field. The following example map for the topic "Wittgenstein" in the Directory of Open Access Journals (DOAJ): [https://bit.ly/okmaps_wittgenstein](http://bit.ly/okmaps_wittgenstein)
 
 *Input data:* OKM takes available meta-data of publications (optionally full-texts can be included) from either [PubMed](https://www.ncbi.nlm.nih.gov/pubmed) or the [DOAJ](https://www.ncbi.nlm.nih.gov/pubmed) as input parameters for further processing. 
 
-*Method:* OKM employs a Natural Language Processing and statistical methods to extract groups of similar articles and give them a meaningful label.
+*Method:* OKM employs Natural Language Processing and statistical methods to extract groups of similar articles and give them a meaningful label.
 
-*Discovered Knowledge:* The discovered knowledge is then represented on a two-dimensional map, where the closeness represents similarity of topic clusters.
+*Discovered Knowledge:* The discovered knowledge is then represented on a two-dimensional map, where proximity represents similarity of topic clusters.
 
 <figure class="floatCenter">
     <img style="width: 120%;" src="./witti_map.png" alt="witti">
@@ -63,7 +63,7 @@ The three main processing steps can be summarized as:
 
 ## Applying Wittgenstein
 
-Last but not least, let's return to Wittgenstein and have a look at some concepts that offer themselves as potential pillars of a Wittgensteinian knowledge discovery system. The content of this section simply represents an excerpt of the status-quo of my thought process and thus, should be regarded as a taster for future elaborations. Accordingly I want to repeat my appeal from my very [first blog post](/hello-world/): "Feel free to comment, highlight and annotate!"
+Last but not least, let's return to Wittgenstein and have a look at some concepts that offer themselves as potential pillars of a Wittgensteinian knowledge discovery system. The content of this section simply represents an excerpt of the status-quo of my thought process and thus, should be regarded as a taster for future elaborations. Accordingly I want to repeat my appeal from my v,.ery [first blog post](/hello-world/): "Feel free to comment, highlight and annotate!"
 
 **Language-games & family resemblance**
 
@@ -80,15 +80,13 @@ Without going into too much details, Wittgenstein's theory says that related con
 
 Apart from the striking similarity between this way of visualizing *family resemblances* and the *knowledge maps* used in OKM, this work will investigate whether the overlapping clusters in OKM actually can be considered family resemblances between research fields.
 
-*Are the groups of clusters actually representing family resemblances of related research field and what are the practical implications of such a view?*
+*Are the clusters actually representing family resemblances of related research field and what are the practical implications of such a view?*
 
 **'Meaning is use'**
 
 >“For a large class of cases of the employment of the word ‘meaning’—though not for all—this word can be explained in this way: the meaning of a word is its use in the language” (PI 43)
 
-In order to understand the meaning of a word, we need to see how the word is actually used in our language. In the case of OKM the question of *meaning* poses itself after the initial processing step (clustering).
-
-How should certain groups of publications be named, in order to provide a meaningful *name* for the end user? Currently [tf-idf](https://en.wikipedia.org/wiki/Tf%E2%80%93idf) is employed to determine the importance of certain words in the set of documents, that are then used as a group of labels.
+In order to understand the meaning of a word, we need to see how the word is actually used in our language. In the case of OKM the question of *meaning* poses itself after the initial processing step (clustering). How should certain groups of publications be named, in order to provide a meaningful *name* for the end user? Currently [tf-idf](https://en.wikipedia.org/wiki/Tf%E2%80%93idf) is employed to determine the importance of certain words in the set of documents, that are then used as a group of labels.
 
 *How could a Wittgensteinian approach to name the clusters look like?*
 
@@ -100,7 +98,7 @@ The visual representation of the discovered knowledge, in the form of an interac
 
 >Aesthetics teaches us essentially to recognize a system. It teaches us to see a system. The fact that in the end its ultimate reasons must “speak” to us, so to speak, does not concern it. (Wittgenstein, 2000, 54r-56v)
 
-Borutti, who considered Wittgenstein's aesthetics and it's implications for the Understanding of Meaning, further elaborates:
+Borutti (2013), who considered Wittgenstein's aesthetics and it's implications for the Understanding of Meaning, further elaborates:
 
 >To “possess judgment” means being capable of recognizing meaning in the entire context: for example, having experience in music and a knowledge of its tradition, knowing how to learn it, how to speak about it, who performs it, how it is performed, when an instrument comes in, etc. The cultivation of taste is explained by the cultivation of a common sense of the rules, or a common grammatical sensitivity, that enables one to “give reasons”.
 
