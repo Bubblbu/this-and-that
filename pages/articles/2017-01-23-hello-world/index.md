@@ -5,17 +5,16 @@ layout: post
 path: "/hello-world/"
 editpath: "2017-01-23-hello-world"
 category: "general"
-description: "After thinking about it for a long time, I finally decided to create this blog. To be honest I am still not sure what I want to write about, but I spent some time thinking about how I would like to do it. But before I tell you more about the technical details, I'll annoy you for a few more sentences about my motivation and all that interesting stuff."
+description: "Hello World! A short blog post about why I created this webpage and how I want to implement an open & collaborative blog."
 ---
 
 Hi everyone!
 
-This is my first post and to be honest I am still not sure _what_ I want to write about exactly, but I spent some time thinking about the _how_. But before telling you more about this, let me quickly introduce myself:
+This is my first post and to be honest I am still not sure _what_ this blog will be about in detail, but I spent some time thinking about the _how_. Before going into more detail let me quickly introduce myself:
 
-My name is Asura Enkhbayar and I am a Master's student in Cognitive Science at the University of Vienna. I have been playing with the idea of starting a blog for quite some time, but never. But recently I decided to try out an experiment and proposed blog posts as deliverables for a project at Uni and my supervisor agreed to it. My two main motivations for this were:
+My name is Asura Enkhbayar and I am a Master's student in Cognitive Science at the University of Vienna. I have been playing with the idea of starting a blog for quite some time, but never found the right time to actually get down to it. Since I came back from [OpenCon 2016](opencon2016.org), I was struggling to find my own way of being more open as a Master's student, so I thought it’s about time to finally proceed with my blogging plans. In order to trick myself into it a bit, I recently proposed blog posts as deliverables for a project at Uni.
 
-+ Trick myself into writing blog posts.
-+ After coming back from [OpenCon 2016](opencon2016.org) I was still struggling to find my own way of being more open as a student. So I here I am now, attempting to build my truly *open* blog.
+So I here I am now, attempting to build my truly *open* blog.
 
 ## The fear of blogging
 
@@ -23,16 +22,15 @@ There are many reasons one might not want to blog. A quick [google search](https
 
 In the beginning I will mainly use this blog as a tool to communicate thoughts and ideas to my project supervisors and I hope that they will join me in this experiment!
 
-## More than just reading
+## Creating an open & collaborative blog
 
-Making a blog bidirectional sounds quite simple, if the solution consists of simply providing the possibility to comment on the text. But I would like to take the idea a few steps further and enable a more specific and detailed discussion of content.
+Usually blogging involves one person who publishes their opinion and readers on the other end, who might be allowed to add comments. While this enables basic conversations, I would like to take the idea of an open & collaborative blog one or maybe even two steps further:
 
-1. __Feedback__ --- Readers should be able to leave a simple comment with little effort.
+1. __Feedback__ --- Readers should be able to leave a comment with little effort.
 
-2. __Annotations__ --- Readers should be able to highlight interesting parts, take notes and discuss contetnt (features known from most PDF Viewers).
+2. __Annotations__ --- Readers should be able to highlight interesting parts, take notes and discuss content (similar to annotations in PDF Viewers).
 
 3. __Collaboration__ --- Readers should be able to propose changes and even create content.
-
 
 <figure class="floatRight">
     <img style="height: 150px;" src="./disqus.png" alt="Disqus">
@@ -42,9 +40,9 @@ Making a blog bidirectional sounds quite simple, if the solution consists of sim
 
 Scroll down to the end of the article to see Disqus in action. Beloved Wikipedia tells us:
 
->[Disqus](https://disqus.com) (pronounced discuss) is a worldwide blog comment hosting service for web sites and online communities that uses a networked platform.
+> [Disqus](https://disqus.com) (pronounced discuss) is a worldwide blog comment hosting service for web sites and online communities that uses a networked platform.
 
-Even though I found quite a lot of criticism ([reddit thread](https://www.reddit.com/r/programming/comments/2c19of/your_users_deserve_better_than_disqus/)), I chose to go for Disqus because of a two very simple and straightforward reasons:
+Even though I found quite a lot of criticism ([reddit thread](https://www.reddit.com/r/programming/comments/2c19of/your_users_deserve_better_than_disqus/)), I chose to go for Disqus because of two simple and straightforward reasons:
 
 + It's easy to deploy (not much of a web-dev - still playing around)
 + Users can simply login with the trinity of the internet: Facebook, Google, Twitter
@@ -57,9 +55,9 @@ Alternative solutions are very welcome -- just leave a comment (*hihi*)
 
 ### Annotations
 
-The heart of the bidirectional blog. [Hypothesis](https://hypothes.is) is a non-profit project that introduces the well-known features from PDF viewers to the internet. In their own words:
+The heart of the *bidirectional* blog. [Hypothesis](https://hypothes.is) is a non-profit project that introduces the well-known features from PDF viewers to the internet. In their own words:
 
->Our mission is to bring a new layer to the web. Use Hypothesis to discuss, collaborate, organize your research, or take personal notes.
+Our mission is to bring a new layer to the web. Use Hypothesis to discuss, collaborate, organize your research, or take personal notes.
 
 Their mission in a few more words (+ great animations):
 
@@ -67,13 +65,13 @@ Their mission in a few more words (+ great animations):
 
 **How to use Hypothesis**
 
-I am aware that their webpage is quite secretive concerning the trivial sufferings of a [nOOb](http://www.urbandictionary.com/define.php?term=n00b&defid=284896), but I recommend their [quick start guide](https://hypothesis.zendesk.com/hc/en-us/articles/230742327-Quick-start-guide). If you're too lazy for that (or simply don't want to install another extension for ever-memory-hogging Chrome), you can also simply sign-up [here](https://hypothes.is/signup) and start annotating on this page. Hypothesis is *enabled per default*.
+I am aware that their webpage is quite secretive about questions concerning basic usage, but luckily they created a great [quick start guide](https://hypothesis.zendesk.com/hc/en-us/articles/230742327-Quick-start-guide). If you're too lazy for that (or simply don't want to install another extension for ever-memory-hogging Chrome), you can also sign-up [here](https://hypothes.is/signup) and start annotating on this page. Hypothesis is *enabled per default*.
 
 A few final remarks about Hypothesis on this blog:
 
-+ All annotations can be either public or private (or just available to groups)
-+ The annatations are backep up on Hypothesis' servers. Which means that the effort will not be lost in case I move this blog to a new domain.
-+ I am not sure about the mobile support yet, but I will probably disable Hypothesis on mobile devices.
++ All annotations can be either public or private (or just available to groups of users)
++ The annatations are backed up on Hypothesis' servers. Which means that annotations won't be lost, even if I decide to move this blog to a new domain.
++ I am still pondering the question of mobile support, but currently I recommend to use Hypothesis on desktop devices.
 
 <figure class="floatRight">
     <img style="height: 150px;" src="./github.png" alt="GitHub">
@@ -83,11 +81,11 @@ A few final remarks about Hypothesis on this blog:
 
 Finally, I want to briefly describe how to propose changes and edits on this blog. For the coders and tech-savvy people: GitHub & Pull Requests. Of course I am far from being the first one to use this idea (e.g. [GitBook](https://github.com/GitbookIO/gitbook)).
 
-For the rest of you, who aren't familiar with these two terms, I will now introduce you to the world of *version control software*: 
+For the rest of you, who aren't familiar with these two terms, I will now introduce you to the world of *version control*: 
 
-This whole blog (code, texts, images) lives on [GitHub](https://github.com), which is a platform for developers to maintain and keep track of projects. Similar to the history of changes in Google Docs, *Git* is a piece of software that tracks the changes in files (usually code) while *GitHub* takes it a step further and makes it possible to collaborate with other developers (while keeping track of all changes that each user makes).
+This whole blog (code, texts, images) lives on [GitHub](https://github.com), which is a platform for developers to maintain and keep track of projects. Similar to the history of changes in Google Docs, *Git* is a piece of software that tracks the changes in files (usually code) while *GitHub* provides additional functionality, such as easy collaboration with other developers (while keeping track of all changes that each user makes).
 
-Basically this means that every version of this blog, that I wanted to save until now, can be seen here: [https://github.com/Bubblbu/this-and-that](https://github.com/Bubblbu/this-and-that). 
+Basically this means that all the changes to this blog can be found here: [https://github.com/Bubblbu/this-and-that](https://github.com/Bubblbu/this-and-that).
 
 **Well okay... but collaboration?**
 
@@ -95,12 +93,13 @@ Now the final piece to solve this puzzle is called *Pull Requests*. GitHub allow
 
 **Well okay... but how?**
 
-+ Propose changes to an article
++ To propose changes:
 
     1. Click on "Edit this article"
     2. Login into your GitHub account (GitHub acc)
     2. Edit article in the web interface
-    3. Submit and propose changes
+    3. Propose changes & submit a new Pull Request
+    4. The owner (me) can now accept your changes or discuss and even add further changes based on your Pull Request
 
 + To view the all changes to a document, just click on "View history" and you will be taken to the following view:
 
@@ -113,4 +112,4 @@ Now the final piece to solve this puzzle is called *Pull Requests*. GitHub allow
 
 The only thing that's left to say is quite obvious... 
 
-Don't hesitate to critisize, applaud, highlight, annotate, comment about anything and everything on this blog! Feel free to leave a few words or even submit a Pull Request on GitHub to get involved.
+Don't hesitate to critisize, applaud, highlight, annotate, comment on anything and everything on this blog! Feel free to leave a few words or even submit a Pull Request on GitHub to get involved.
