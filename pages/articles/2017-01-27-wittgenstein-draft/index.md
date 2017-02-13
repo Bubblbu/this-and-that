@@ -114,11 +114,11 @@ Why Open Knowledge Maps? The answer is quite simple, as I am a voluntary develop
 
 ## References
 
-Borutti, S. (2013). Wittgenstein’s Concepts for an Aesthetics: Judgment and Understanding of Form, 1933(1938), 55–66.
+Borutti, S. (2013). Wittgenstein’s Concepts for an Aesthetics: Judgment and Understanding of Form, 1933(1938), 55–66. Link to [PDF](http://www.fupress.net/index.php/aisthesis/article/view/12837/12147)
 
-Frawley, W. J., Piatetsky-Shapiro, G., & Matheus, C. J. (1992). Knowledge discovery in databases: An overview. *AI magazine*, 13(3), 57.
+Frawley, W. J., Piatetsky-Shapiro, G., & Matheus, C. J. (1992). Knowledge discovery in databases: An overview. *AI magazine*, 13(3), 57. Link to [PDF](https://pdfs.semanticscholar.org/7a7b/51b86e22d0077215287980c7ba793b09e4cd.pdf)
 
-Tufte, E. R. (1991). Envisioning information. *Optometry & Vision Science*, 68(4), 322-324.
+Tufte, E. R. (1991). Envisioning information. *Optometry & Vision Science*, 68(4), 322-324. Link to [PDF](https://tecnoaprendizagem.files.wordpress.com/2015/02/tufte-edward-envisioning-information-1.pdf)
 
 Wittgenstein, L. (2000). *Wittgenstein’s Nachlass*. Bergen Edition Bergen‐Oxford.
 
