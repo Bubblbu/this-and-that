@@ -21,16 +21,20 @@ class SitePost extends React.Component {
         const edit_url = "https://github.com/" + username + "/" + project + "/edit/master/pages/articles/" + post.editpath + "/index.md"
         const history_url = "https://github.com/" + username + "/" + project + "/commits/master/pages/articles/" + post.editpath + "/index.md"
 
+        const URL = config.GitHubBaseURL + prefixLink(this.props.location.pathname)
+
         const home = (
             <div>
               <Helmet
                   meta={[
-                      // {name: "description", content: "Helmet application"},
-                      // {property: "og:type", content: "article"}
-                      // TO-DO Implement the Facebook Open Graph Protocol
+                      // {property: "og:type", content: "blog"},
+                      // {property: "og:url", content: URL},
+                      // {property: "og:description", content: post.description},
+                      // {property: "og:title", content: post.title},
+                      // {property: "og:image", content: "http://www.military-history.org/wp-content/uploads/2014/04/Wittgenstein.jpg"}
                       ]}
                   link={[
-                      {rel: "canonical", href: config.GitHubBaseURL + prefixLink(this.props.location.pathname)}
+                      {rel: "canonical", href: URL}
                   ]}
                   script={[
                       {src: "https://hypothes.is/embed.js", type: "text/javascript", async:true},
