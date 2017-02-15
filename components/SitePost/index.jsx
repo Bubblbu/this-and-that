@@ -23,41 +23,42 @@ class SitePost extends React.Component {
 
         const home = (
             <div>
-            <Helmet
-                meta={[
-                    // {name: "description", content: "Helmet application"},
-                    // {property: "og:type", content: "article"}
-                    // TO-DO Implement the Facebook Open Graph Protocol
-                    ]}
-                link={[
-                    {rel: "canonical", href: config.GitHubBaseURL + prefixLink(this.props.location.pathname)}
-                ]}
-                script={[
-                    {src: "https://hypothes.is/embed.js", type: "text/javascript", async:true},
-                    {type: "application/json", text: "{\"showHighlights\": true}", className:"js-hypothesis-config"}
-                ]}
-            />
+              <Helmet
+                  meta={[
+                      // {name: "description", content: "Helmet application"},
+                      // {property: "og:type", content: "article"}
+                      // TO-DO Implement the Facebook Open Graph Protocol
+                      ]}
+                  link={[
+                      {rel: "canonical", href: config.GitHubBaseURL + prefixLink(this.props.location.pathname)}
+                  ]}
+                  script={[
+                      {src: "https://hypothes.is/embed.js", type: "text/javascript", async:true},
+                      {type: "application/json", text: "{\"showHighlights\": true}", className:"js-hypothesis-config"}
+                  ]}
+              />
 
-            <div className="button-container">
-              <div className="button-box">
-                <Link className='gohome' to={ prefixLink('/') }>All Articles</Link>
+              <div className="button-container">
+                <div className="button-box">
+                  <Link className='gohome' to={ prefixLink('/') }>All Articles</Link>
+                </div>
+                <div className="button-box">
+                  <Link className='gohome' to={ edit_url }>Edit this article</Link>
+                </div>
+                <div className="button-box">
+                  <Link className='gohome' to={ history_url }>View edit history</Link>
+                </div>
               </div>
-              <div className="button-box">
-                <Link className='gohome' to={ edit_url }>Edit this article</Link>
-              </div>
-              <div className="button-box">
-                <Link className='gohome' to={ history_url }>View edit history</Link>
-              </div>
-            </div>
           </div>
         )
 
-        const disqus = ( < ReactDisqusThread shortname = { config.disqusShortname }
+        const disqus = ( <ReactDisqusThread 
+            shortname = { config.disqusShortname }
             // identifier= { component.state.identifier }
             // title= {component.state.title}
             // url= { component.state.url }
             // category_id= {component.state.category_id }
-            > < /ReactDisqusThread>
+            ></ReactDisqusThread>
         )
 
         return (
