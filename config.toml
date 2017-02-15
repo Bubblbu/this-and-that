@@ -12,4 +12,6 @@ linkPrefix = "/this-and-that"
 
 GitHubRepository = "this-and-that"
 GitHubUserName = "Bubblbu"
+GitHubBaseURL = "https://bubblbu.github.io"
+
 disqusShortname = "this-and-that"

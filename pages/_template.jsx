@@ -9,31 +9,13 @@ import '../static/css/typography.css'
 
 class Template extends React.Component {
     render() {
-        const {location, children} = this.props
+        const { location, children } = this.props
 
         return (
             <div className='wrapper'>
               { children }
             </div>
-            );
-    }
-
-    componentDidMount() {
-        function loadScript() {
-             var script= document.createElement('script');
-             script.type= 'text/javascript';
-             script.src= 'https://hypothes.is/embed.js';
-             script.async = true;
-
-             var config= document.createElement('script');
-             config.type= 'application/json';
-             config.className= 'js-hypothesis-config'
-             config.text= '{"showHighlights": true}';
-
-             document.body.appendChild(config)
-             document.body.appendChild(script);
-        }
-        loadScript();
+        );
     }
 }
 

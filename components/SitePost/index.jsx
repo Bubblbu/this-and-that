@@ -1,4 +1,5 @@
 import React from 'react'
+import Helmet from "react-helmet"
 import moment from 'moment'
 import { RouteHandler, Link } from 'react-router'
 import { prefixLink } from 'gatsby-helpers'
@@ -11,7 +12,7 @@ import ReactDisqusThread from 'react-disqus-thread'
 
 class SitePost extends React.Component {
     render() {
-        const {route} = this.props
+        const { route } = this.props
         const post = route.page.data
 
         const project = config.GitHubRepository
@@ -21,7 +22,22 @@ class SitePost extends React.Component {
         const history_url = "https://github.com/" + username + "/" + project + "/commits/master/pages/articles/" + post.editpath + "/index.md"
 
         const home = (
-          <div>
+            <div>
+            <Helmet
+                meta={[
+                    // {name: "description", content: "Helmet application"},
+                    // {property: "og:type", content: "article"}
+                    // TO-DO Implement the Facebook Open Graph Protocol
+                    ]}
+                link={[
+                    {rel: "canonical", href: config.GitHubBaseURL + prefixLink(this.props.location.pathname)}
+                ]}
+                script={[
+                    {src: "https://hypothes.is/embed.js", type: "text/javascript", async:true},
+                    {type: "application/json", text: "{\"showHighlights\": true}", className:"js-hypothesis-config"}
+                ]}
+            />
+
             <div className="button-container">
               <div className="button-box">
                 <Link className='gohome' to={ prefixLink('/') }>All Articles</Link>
@@ -36,14 +52,12 @@ class SitePost extends React.Component {
           </div>
         )
 
-        const disqus = (
-            <ReactDisqusThread
-                shortname= { config.disqusShortname }
-                // identifier= { component.state.identifier }
-                // title= {component.state.title}
-                // url= { component.state.url }
-                // category_id= {component.state.category_id }
-                ></ReactDisqusThread>
+        const disqus = ( < ReactDisqusThread shortname = { config.disqusShortname }
+            // identifier= { component.state.identifier }
+            // title= {component.state.title}
+            // url= { component.state.url }
+            // category_id= {component.state.category_id }
+            > < /ReactDisqusThread>
         )
 
         return (
@@ -70,7 +84,7 @@ class SitePost extends React.Component {
                 
               </div>
             </div>
-            );
+        );
     }
 }
 
