@@ -6,6 +6,7 @@ import SiteNav from '../SiteNav'
 import SiteLinks from '../SiteLinks'
 import './style.css'
 import profilePic from '../../pages/author.jpg'
+import ccbyPic from '../../pages/ccby.png'
 
 class SiteSidebar extends React.Component {
     render() {
@@ -15,7 +16,7 @@ class SiteSidebar extends React.Component {
         let header = (
         <header>
           {/* <Link style={ {    textDecoration: 'none',    borderBottom: 'none',    outline: 'none'} } to={ prefixLink('/') }>
-            <img src={profilePic} width='75' height='75' />
+            <img className='profile-pic' src={profilePic} width='75' height='75' />
           </Link> */}
           
           <h1>
@@ -47,7 +48,9 @@ class SiteSidebar extends React.Component {
                   <footer>
                     <SiteLinks {...this.props}/>
                     <p className='copyright'>
-                      &copy; All rights reserved.
+                      <br/>
+                      <img href="https://creativecommons.org/licenses/by/4.0/" src={ccbyPic} alt="copyright"/>
+                      This work is licensed under a <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
                     </p>
                   </footer>
                 </div>
