@@ -1,31 +1,19 @@
-# Lumen
+# This and that
 
-Gatsby starter for creating a blog
+An experimental Open Source blog based on the [Gatsby](https://github.com/gatsbyjs/gatsby) starter [Lumen](https://github.com/wpioneer/gatsby-starter-lumen).
 
-## Features
-+ Inline CSS.
-+ Clean and extensible code.
-+ Six simple components: SiteSidebar, SiteNav, SiteLinks, SitePost, SitePage, ReadNext.
-+ [peterramsing/lost](https://github.com/peterramsing/lost) as a base for Grid.
-+ [matejlatin/Gutenberg](https://github.com/matejlatin/Gutenberg) as a base for Typography.
+## Goal
 
-## Installing
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-`gatsby new lumen https://github.com/wpioneer/gatsby-starter-lumen`
+This blog is an attempt to create an open blog platform that enables discussion and collaboration based on three main features:
 
-## Running in development
-`gatsby develop`
-
-![](http://i.imgur.com/422y5GV.png)
-
-## Ports
-
-[Statinamic port](https://github.com/thangngoc89/statinamic-theme-lumen) by [Khoa Nguyen](https://github.com/thangngoc89)
++ Commenting ([Disqus](https://disqus.com))
++ Annotations ([Hypothesis](https://hypothes.is))
++ Collaboration (GitHub Editing & Pull Requests)
 
 ## License
 The MIT license.
 
-Copyright (c) 2016 Alexandr Shelepenok [ashk.io](http://ashk.io)
+Copyright (c) 2016 Alexandr Shelepenok [ashk.io](http://ashk.io), 2017 Asura Enkhbayar
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
