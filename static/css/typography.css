@@ -98,6 +98,13 @@ p a:hover {
 	color: #5d93ff;
 	text-decoration: underline;
 }
+li a {
+	color: #5d93ff;
+}
+li a:hover {
+	color: #5d93ff;
+	text-decoration: underline;
+}
 article {
 	display: block;
 	margin: 0 auto;
