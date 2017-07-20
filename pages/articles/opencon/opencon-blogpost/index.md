@@ -12,7 +12,7 @@ I've finally decided to share the application I used for last year's OpenCon. Wh
 
 1. Writing good motivational or reference letters<sup>1</sup> or applications is hard. Usually I try to look up examples. If you are as confident about your writing skills as I am, you might be happy to have an example to look at.
 2. It's not dark magic, no secret recipes and keywords to succeed (except *Elsevier*. The ppl at OpenCon love *Elsevier*. Use it at least 35 times).
-3. I decided to post my application while I was writing a guest post for the OpenCon blog, which you can find [here](http://www.opencon2017.org/blog).
+3. I decided to post my application while I was writing a guest post for the OpenCon blog, which you can find [here](http://www.opencon2017.org/opencon_why_and_how_i_applied_and_why_you_should_too).
 
 So, here you go:
 
