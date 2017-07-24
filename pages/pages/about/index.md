@@ -12,7 +12,7 @@ Hi everyone!
 
 My name is Asura Enkhbayar and I am Master's student in Cognitive Science at the University of Vienna. My background is in Electronics, which means that I'm quite proficient at changing light bulbs. Apart from these superiour light-bulb-replacing-skills, I also mastered the art of producing more or less properly working code (mostly data sciency & web-dev projects).
 
-Currently I am utterly lost in the world of [*isms](http://phrontistery.info/isms.html) and as a supporter of _Open *_<a href="#openness"><sup>1</sup></a>, I decided to start this blog and try to openly disentangle my thoughts.
+Currently I am utterly lost in the world of [*isms](http://phrontistery.info/isms.html) and as a supporter of _Open_ [^1], I decided to start this blog and try to openly disentangle my thoughts.
 
 _Open... but how?_
 
@@ -22,6 +22,4 @@ Even though blogs are considered to be the personal space for a writer's thought
 
 **tl;dr** --- I am building and maintaining this experimental blog as part of a uni project, which means that you might experience interesting usability-related phenomena. Nevertheless, I am intending to write about cognitive science, open science, philosophy and some other things.
 
------------
-
-<a name="#openness"></a><sup>1</sup> Science, Access, Source, Data, Peer Review, Methodology, Educational Resources, Research, ...
+[^1]: Science, Access, Source, Data, Peer Review, Methodology, Educational Resources, Research, ...
