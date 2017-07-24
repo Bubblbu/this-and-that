@@ -60,7 +60,7 @@ Our mission is to bring a new layer to the web. Use Hypothesis to discuss, colla
 
 Their mission in a few more words (+ great animations):
 
-<iframe src="https://www.youtube.com/embed/QCkm0lL-6lc" frameborder="0" allowfullscreen style="display: block; width: 560px; height: 315px;"></iframe>
+@[youtube](QCkm0lL-6lc)
 
 **How to use Hypothesis**
 

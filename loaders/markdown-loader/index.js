@@ -34,6 +34,10 @@ const md = markdownIt({
   .use(require('markdown-it-table-of-contents'), {
     includeLevel:[1,2,3],
   })
+  .use(require('markdown-it-video'), {
+    youtube: { width: 560, height: 315 },
+    vimeo: { width: 560, height: 315 },
+  })
 
 md.renderer.rules.table_open = function(tokens, idx) {
       return '<table class="table">';
