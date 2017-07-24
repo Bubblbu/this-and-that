@@ -3,7 +3,6 @@ title: "Open Sciencing in Berlin"
 date: "2017-03-24"
 layout: post
 path: "/2017-03-24-osc2017/"
-editpath: "2017-03-24-osc2017"
 category: "Open Science"
 description: "Cats, dinosaurs, data dispensers and other open sciency things that happened during the spring equinox in Berlin. \"Putting Open Science into practice\" was the theme of this year's Barcamp Open Science at the Wikimedia Germany, which preceded the 4th annual Open Science Conference"
 ---

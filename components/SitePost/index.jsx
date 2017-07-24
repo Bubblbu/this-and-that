@@ -18,8 +18,8 @@ class SitePost extends React.Component {
         const project = config.GitHubRepository
         const username = config.GitHubUserName
 
-        const edit_url = "https://github.com/" + username + "/" + project + "/edit/master/pages/articles/" + post.editpath + "/index.md"
-        const history_url = "https://github.com/" + username + "/" + project + "/commits/master/pages/articles/" + post.editpath + "/index.md"
+        const edit_url = "https://github.com/" + username + "/" + project + "/edit/master/pages/" + route.page.file.path
+        const history_url = "https://github.com/" + username + "/" + project + "/commits/master/pages/" + route.page.file.path
 
         const URL = config.GitHubBaseURL + prefixLink(this.props.location.pathname)
 

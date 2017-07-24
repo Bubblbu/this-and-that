@@ -3,7 +3,6 @@ title: "The idea of an open blog"
 date: "2017-01-23"
 layout: post
 path: "/hello-world/"
-editpath: "2017-01-23-hello-world"
 category: "general"
 description: "Hello World! A short blog post about why I created this webpage and how I want to implement an open & collaborative blog."
 ---

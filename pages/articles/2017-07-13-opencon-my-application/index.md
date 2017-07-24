@@ -3,7 +3,6 @@ title: "My OpenCon 2016 Application"
 date: "2017-07-13"
 layout: post
 path: "/my-opencon-2016-application/"
-editpath: "/my-opencon-2016-application/"
 category: "OpenCon"
 description: "Want to apply for OpenCon 2017 but hate writing applications? Tried googling 'opencon application tutorial in < 10min'? Say no more... Have a look at mine!"
 ---
