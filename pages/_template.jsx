@@ -6,6 +6,9 @@ import { config } from 'config'
 import '../static/css/reset.css'
 import '../static/css/base.css'
 import '../static/css/typography.css'
+import 'bootstrap-css/lib/tables.css'
+import 'bootstrap-css/lib/buttons.css'
+import 'bootstrap-css/lib/button-group.css'
 
 class Template extends React.Component {
     render() {

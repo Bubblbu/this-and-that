@@ -10,7 +10,7 @@ description: "Want to apply for OpenCon 2017 but hate writing applications? Trie
 
 I've finally decided to share the application I used for last year's OpenCon. Why am I doing this?
 
-1. Writing good motivational or reference letters<sup>1</sup> or applications is hard. Usually I try to look up examples. If you are as confident about your writing skills as I am, you might be happy to have an example to look at.
+1. Writing good motivational or reference letters[^1] or applications is hard. Usually I try to look up examples. If you are as confident about your writing skills as I am, you might be happy to have an example to look at.
 2. It's not dark magic, no secret recipes and keywords to succeed (except *Elsevier*. The ppl at OpenCon love *Elsevier*. Use it at least 35 times).
 3. I decided to post my application while I was writing a guest post for the OpenCon blog, which you can find [here](http://www.opencon2017.org/opencon_why_and_how_i_applied_and_why_you_should_too).
 
@@ -49,5 +49,4 @@ As reading and reviewing applications for OpenCon is hard work, I will try to ke
 + Headstart on Github - [https://github.com/pkraker/Headstart](https://github.com/pkraker/Headstart)
 + Open Science Workshop - [https://github.com/Bubblbu/raiders-of-the-lost-work](https://github.com/Bubblbu/raiders-of-the-lost-work)
 
-
-<a name=""></a><sup>1</sup>Writing your own letter of recommendation is terrible. It's the worst. And really stupid. Is this only a thing in Austria?
+[^1]: Writing your own letter of recommendation is terrible. It's the worst. And really stupid. Is this only a thing in Austria?

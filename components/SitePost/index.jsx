@@ -8,7 +8,6 @@ import { config } from 'config'
 import ReadNext from '../ReadNext'
 import SiteSidebar from '../SiteSidebar'
 import './style.css'
-import '../../static/css/highlight.css'
 import ReactDisqusThread from 'react-disqus-thread'
 
 class SitePost extends React.Component {
@@ -24,15 +23,11 @@ class SitePost extends React.Component {
 
         const URL = config.GitHubBaseURL + prefixLink(this.props.location.pathname)
 
-        const home = (
-            <div>
-              <div className="button-container">
-                  <div className="button-box">
-                   <Link className='gohome' to={ edit_url }>Edit this article</Link>
-                  </div>
-                  <div className="button-box">
-                    <Link className='gohome' to={ history_url }>View edit history</Link>
-                  </div>
+        const edit_bar = (
+            <div className="edit-bar">
+              <div className="btn-group">
+                   <a href={ edit_url } className="btn btn-secondary btn-sm" role="button">Edit this article</a>
+                   <a href={ history_url } className="btn btn-secondary btn-sm" role="button">View edit history</a>
               </div>
           </div>
         )
@@ -69,8 +64,8 @@ class SitePost extends React.Component {
               <div className='content'>
                 <div className='main'>
                   <div className='main-inner'>
-                    { home }
                     <div className='blog-single'>
+                      { edit_bar }
                       <div className='text'>
                         <h1>{ post.title }</h1>
                         <div dangerouslySetInnerHTML={ { __html: post.body} } />

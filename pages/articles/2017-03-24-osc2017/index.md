@@ -47,7 +47,7 @@ I was so surprised, when I recently attended a mandatory session on *"Good Scien
 #### Great things are happening already
 
 + Maria Henkel (HHU Düsseldorf) described new approaches to grading students in CS classes. (e.g. accepting contributions to Open Source projects on GitHub)
-+ Olga Gkotsopoulou (Free Software Foundation Europe) told us about educational projects in Greece utilising Wikipedia.<a href="#wiki"><sup>1</sup></a> Link drop: [Wikipedia Education Program](https://outreach.wikimedia.org/wiki/Education).
++ Olga Gkotsopoulou (Free Software Foundation Europe) told us about educational projects in Greece utilising Wikipedia.[^1] Link drop: [Wikipedia Education Program](https://outreach.wikimedia.org/wiki/Education).
 
 ## The Open Science (Infrastructure) Landscape
 
@@ -85,4 +85,4 @@ Say no more...
     <figcaption>The Data Pump @Wikimedia Berlin. By <a href="//commons.wikimedia.org/w/index.php?title=User:Clic27&amp;action=edit&amp;redlink=1" class="new" title="User:Clic27 (page does not exist)">Clic27</a> - <span class="int-own-work" lang="en">Own work</span>, <a href="http://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=32655489">Link</a></figcaption>
 </figure>
 
-<a name="#wiki"></a><sup>1</sup> The projects were aiming for various populations such as teachers and adults ([CNN report in Greek](http://www.cnn.gr/focus/story/20047/otan-pigainame-mazi-sxoleio-me-tin-vikipaideia)), students in schools ([Wikipedia School](http://wikipedia-school.gr/)) and also universities ([blog post](https://blog.wikimedia.org/2013/06/06/wikipedia-education-thessaloniki/)).
+[^1]: The projects were aiming for various populations such as teachers and adults ([CNN report in Greek](http://www.cnn.gr/focus/story/20047/otan-pigainame-mazi-sxoleio-me-tin-vikipaideia)), students in schools ([Wikipedia School](http://wikipedia-school.gr/)) and also universities ([blog post](https://blog.wikimedia.org/2013/06/06/wikipedia-education-thessaloniki/)).
