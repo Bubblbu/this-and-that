@@ -41,7 +41,7 @@
     "markdown-it-sub": "^1.0.0",
     "markdown-it-table-of-contents": "^0.3.2",
     "markdown-it-video": "^0.4.0",
-    "moment": "^2.29.2",
+    "moment": "^2.29.4",
     "react": "^15.3.0",
     "react-disqus-thread": "^0.4.0",
     "react-dom": "^15.3.0",
