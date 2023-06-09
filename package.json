@@ -29,7 +29,7 @@
     "bootstrap-css": "^4.0.0-alpha.5",
     "classnames": "^2.1.2",
     "front-matter": "^2.0.8",
-    "gatsby": "^0.12.0",
+    "gatsby": "^4.25.7",
     "history": "^2.1.1",
     "lodash": "^4.17.21",
     "markdown-it": "^12.3.2",
